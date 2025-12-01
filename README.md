@@ -35,3 +35,25 @@ Copy code
 cd backend
 npm install
 npm run develop
+Strapi backend runs at http://localhost:1337
+
+Make sure Pets collection exists and Public role has find and findOne permissions
+
+### 2. Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+Frontend runs at http://localhost:5173
+
+Connects to backend API at http://localhost:1337/api
+
+### Usage
+
+```bash
+Open frontend in browser
+
+View, add, edit, delete pets
+
+Uses documentId for Strapi v5 endpoints
