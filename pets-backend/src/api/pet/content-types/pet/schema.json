@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pets",
+  "info": {
+    "singularName": "pet",
+    "pluralName": "pets",
+    "displayName": "Pet"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "species": {
+      "type": "string"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "adopted": {
+      "type": "boolean"
+    }
+  }
+}
